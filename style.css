@@ -260,6 +260,14 @@ margin-left: 40px;
   border-bottom: 2px solid #e67e22;
 }
 
+/* Mobile navi */
+.mobile-nav-icon {
+     float: right;
+     margin-top: 3px;
+     cursor: pointer;
+     
+}
+
 /* Sticky navi */
 .sticky {
     position: fixed;
