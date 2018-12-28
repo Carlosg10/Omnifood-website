@@ -47,3 +47,13 @@ $(.js--wp-1).waypoint(function(direction) {
 })
 
 });
+
+/* Mobile nav */
+$('.js--nav-icon').click(function() {
+  var nav = $('.js--main-nav');
+
+  nav.slideToggle(200);
+});
+
+
+});
