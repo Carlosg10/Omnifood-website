@@ -51,17 +51,17 @@ $(.js--wp-1).waypoint(function(direction) {
 /* Mobile nav */
 $('.js--nav-icon').click(function() {
   var nav = $('.js--main-nav');
-
+  var icon = $('.js--nav-i');
   nav.slideToggle(200);
+  if (icon.hasClass('ion-navicon-round')) {
+      icon.addClass('ion-close-round');
+      icon.removeClass('ion-navicon-round');
+  } else {
+    icon.addClass('ion-navicon-round');
+    icon.removeClass('ion-close-round');
+  }
+
 });
 
 
 });
-
-/* mobile NAvigation*/
-
-$('.js--nav-icon').click(function() {
-    var nav = $('.main-nav');
-
-    nav.slideToggle(200);
-})
