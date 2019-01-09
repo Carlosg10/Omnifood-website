@@ -23,24 +23,25 @@
     .work-step:last-of-type { margin-bottom: 60px; }
 
     .app-screen { width: 50%; }
+
+    .incon-small {
+      width: 17px;
+      margin-right: 5px;
+     }
+
+    .city-feature { font-size: 90%; }
+
+    .plan-box {
+      width: 100%;
+      margin-left: 0%;
+    }
+
+    .plan-price { font-size: 250%; }
+    
+    .contact-form { width: 80%; }
 }
- 
-  .incon-small {
-    width: 17px;
-    margin-right: 5px;
-   }
 
-  .city-feature { font-size: 90%; }
 
-.plan-box {
-  width: 100%;
-  margin-left: 0%;
-}
-
-  .plan-price { font-size: 250%; }
-  .contact-form { width: 80%; }
-
-}
 
 
 /* SMALLPHONES TO SMALL TABLETS: from 481 to 767px*/
