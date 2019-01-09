@@ -14,18 +14,17 @@
      section { padding: 60px 0; }
 
      .long-copy {
-       line-height: 10%;
-       width: 80%;
+        width: 80%;
+        margin-left: 10%;
   }
+    .steps-box { margin-top: 10px; }
+    .step-box:last-child { margin-top: 10px; }
+    .works-step { margin-bottom: 40px; }
+    .work-step:last-of-type { margin-bottom: 60px; }
+
+    .app-screen { width: 50%; }
 }
-
-  .steps-box { margin-top: 10px; }
-  .step-box:last-child { margin-top: 10px; }
-  .works-step {margin-bottom: 40px;}
-  .works-step:last-of-type { margin-bottom: 60px; }
-
-  .app-screen { width: 50%; }
-
+ 
   .incon-small {
     width: 17px;
     margin-right: 5px;
