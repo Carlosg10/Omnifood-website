@@ -37,11 +37,8 @@
     }
 
     .plan-price { font-size: 250%; }
-    
     .contact-form { width: 80%; }
 }
-
-
 
 
 /* SMALLPHONES TO SMALL TABLETS: from 481 to 767px*/
@@ -50,7 +47,7 @@
   section { padding: 30% 0;}
 
   .row,
-  .hero-text box { padding:  0 4%; }
+  .hero-text-box { padding:  0 4%; }
 
   .col {
     width: 100%;
@@ -95,8 +92,8 @@
     margin-left: 0%;
   }
 
-
   .app-screen { width: 40px; }
+
   .steps-box:first-child { text-align: center; }
 
   .works-step div {
@@ -107,7 +104,7 @@
       font-size: 120%;
   }
 
-  .works-step {margin-bottom: 20px;}
+  .works-step { margin-bottom: 20px; }
   .works-step:last-of-type { margin-bottom: 20px; }
 
 }
